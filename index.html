@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href= "./style.css">
     <title>Document</title>
 </head>
 <body>
-    111
-<div class="wrapper">
+
+<header class="wrapper">
 <nav>
 
     <img src="./svg/chef-hat (2) 1.svg" alt="">
 <button class="logo_button">Foo </button>
 <ul class="nav">
-    <li class ="nav_elem"><button>Home</button></li>
-<li class ="nav_elem"><button>Menu</button></li>
-<li class ="nav_elem"><button>Contact</button></li>
-<li class ="nav_elem"><button>Shop</button></li>
+    <li class ="nav_elem"><button class="nav_elem_btn">Home</button></li>
+<li class ="nav_elem"><button  class="nav_elem_btn">Menu</button></li>
+<li class ="nav_elem"><button  class="nav_elem_btn">Contact</button></li>
+<li class ="nav_elem"><button  class="nav_elem_btn">Shop</button></li>
 </ul>
+<!-- <input type="text" placeholder="        Search" class="search_input"> -->
+<div class="search_input">
+    <label for="1"><img src="./svg/Vector.svg" alt="lupa" /></label>
+    <input class="search_text" type="search" placeholder="Search" id="1" />
+    <div class="cart">
+      <img src="./svg/Shopping cart.svg" alt="cart" />
+    </div>
 </nav>
+<div class="info">
+    <div class="info_left">
+        <div class="info_headers">
+            <h2 class="info_headers_2">Fast</h2>
+            <h1 class="info_headers_1">Food <hr/> Delivery</h1>
+           
+        </div>
+      
+        <p class="info_text">Sed ut perspiciatis unde omnis iste natus sit <br> voluptatem accusantium doloremque laudantium</p>
+<div class="info_order">
+    <button class="order_btn">Order Now</button>
+    <button class="watch_btn">
+  <span class="watch_btn_play">&#9658</span>
+    <p class="watch_btn_text">Watch video</p>
+</button>
+
+<div class="star_rating">
+    <ul class="nav_star">
+        <li class ="nav_elem_star"> <img src="./svg/emojione_star.svg" alt=""></li>
+        <li class ="nav_elem_star"> <img src="./svg/emojione_star.svg" alt=""></li>
+        <li class ="nav_elem_star"> <img src="./svg/emojione_star.svg" alt=""></li>
+        <li class ="nav_elem_star"> <img src="./svg/emojione_star.svg" alt=""></li>
+        <li class ="nav_elem_star"> <img src="./svg/emojione_star.svg" alt=""></li>
+    </ul>
+    <div class="rating_info">
+    <p class="star_text">5 star rating</p>
+    <p class="star_text_rew">based on 1788 reviews</p>  
+</div>
+</div>
 
 </div>
+
+    </div>
+    <div class="info_right">
+        <img src="./png/food.png" class="info_img" alt="">
+    </div>
+</div>
+</header>
 </body>
 
 </html>
