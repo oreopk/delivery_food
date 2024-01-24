@@ -59,6 +59,7 @@ cursor:pointer;
 }
 .search_input
 {
+    
    width: 314px;  
    height: 60px;
    padding-left: 41px;
@@ -88,6 +89,7 @@ display:inline-block;
 .cart
 {
     display:inline-block;
+    margin-left:-12px;
 }
 .nav_elem_btn{
     font-weight: 400px;
@@ -243,4 +245,11 @@ line-height: 139.8%;
 {
    
     margin-top: 41px;
+}
+.img_arrow
+{
+    padding: 80px 830px 555px 400px;
+position:absolute;
+ 
+    pointer-events: none;
 }
